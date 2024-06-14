@@ -38,4 +38,4 @@ positions.forEach ((position) => {
     };
 
     console.log(`${position}${suffix}`);
-});
+});ko
