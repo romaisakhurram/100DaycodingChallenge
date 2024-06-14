@@ -1,0 +1,39 @@
+
+//Day 23
+//Q67
+// The function mixed types a number and a string
+function AddNumberAndString(num1 : number , numberString: string) : number {
+
+//number and numberstring add number 
+    return num1  + Number(numberString)
+}
+console.log(AddNumberAndString (30 , "45"));
+
+//Q68
+// The function multiplies two decimal number
+function MultiplyDecimalNumber(num1 : number , num2 : number) : number {
+
+// multiplies the number and round the result of two decimal number 
+    return Math.round ((num1 * num2) * 100) / 100
+}
+console.log(MultiplyDecimalNumber(0.5 , 0.6));
+
+//Q69
+//the funtion dividing the two number and find the qremainer and the quotient
+function DivindingAndRemainder(dividend : number , divisor : number) :{quotient : number ; 
+remainder : number} {
+
+// calculate the quotient and remainder
+let quotient = Math.floor(dividend / divisor)
+
+let remainder = dividend % divisor
+//return both in  object
+return{quotient , remainder}
+}
+console.log(DivindingAndRemainder(29 , 3));
+
+
+
+
+
+
