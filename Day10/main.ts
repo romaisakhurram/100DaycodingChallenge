@@ -22,7 +22,7 @@ if( age < 2){
 let fruit_name : string[] = ["apple" , "mango" , "peach" , "banana"]
 
 if (fruit_name.includes ("apple")){
-    console.log("you are fruit")
+    console.log("I am fruit")
 }
 
 // Q30

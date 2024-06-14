@@ -25,7 +25,7 @@ else {
 //Q29
 var fruit_name = ["apple", "mango", "peach", "banana"];
 if (fruit_name.includes("apple")) {
-    console.log("you are fruit");
+    console.log("I am fruit");
 }
 // Q30
 var user_names = ["ali", "sara", "admin", "uzair", "almir"];
