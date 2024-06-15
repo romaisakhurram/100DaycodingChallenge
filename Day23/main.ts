@@ -18,19 +18,19 @@ function MultiplyDecimalNumber(num1 : number , num2 : number) : number {
 }
 console.log(MultiplyDecimalNumber(0.5 , 0.6));
 
-//Q69
-//the funtion dividing the two number and find the qremainer and the quotient
-function DivindingAndRemainder(dividend : number , divisor : number) :{quotient : number ; 
-remainder : number} {
+// //Q69
+// //the funtion dividing the two number and find the qremainer and the quotient
+// function DivindingAndRemainder(dividend : number , divisor : number) :{quotient : number ; 
+// remainder : number} {
 
-// calculate the quotient and remainder
-let quotient = Math.floor(dividend / divisor)
+// // calculate the quotient and remainder
+// let quotient = Math.floor(dividend / divisor)
 
-let remainder = dividend % divisor
-//return both in  object
-return{quotient , remainder}
-}
-console.log(DivindingAndRemainder(29 , 3));
+// let remainder = dividend % divisor
+// //return both in  object
+// return{quotient , remainder}
+// }
+// console.log(DivindingAndRemainder(29 , 3));
 
 
 
